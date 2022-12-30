@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="heading">
+        <h3>Student Enrollment Form</h3>
+      </div>
+      <div id="left-box">
+        <form action="" onsubmit="now()">
+          <label for="">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            class="z"
+          />
+
+          <label for="">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="example@mail.com"
+            class="z"
+          />
+
+          <label for="">Website</label>
+          <input type="url" id="url" placeholder="Add link" />
+
+          <label for="">Image link</label>
+          <input type="url" id="url2" placeholder="Add img link" />
+
+          <label for="">Gender</label>
+          <input type="radio" id="male" name="gender" value="Male" />
+          <label id="m" for="">Male</label>
+          <input type="radio" id="female" name="gender" value="Female" />
+          <label id="f" for="">Female</label>
+
+          <label for=""
+            >Enrollment <br />
+            Number</label
+          >
+          <input type="text" placeholder="Enrollment No." id="enroll" />
+
+          <!-- <div id="buttons">
+                <input type="submit" id="red" class="submitbtn" value="Submit">
+                <input type="submit" id="green" class="submitbtn" value="Clear">
+               </div> -->
+        </form>
+
+        <button id="red">Click here</button>
+        <button id="green">Clear</button>
+      </div>
+      <div id="divider"></div>
+      <div id="right-box">
+        <div class="card">
+          <div class="photo">
+            <img src="#" alt="Add Your Image" />
+          </div>
+          <p class="para" id="p1">Name: SHAHEEN NAFIHA S</p>
+          <p class="para" id="p2">Email: snafihas@gmail.com</p>
+          <p class="para" id="p3">Website: www.shaheen.com</p>
+          <p class="para" id="p4">Gender: Female</p>
+          <p class="para" id="p5">Enrollment No. : 221545SDR4</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
